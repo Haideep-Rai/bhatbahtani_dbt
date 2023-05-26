@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: dbt
+    database: test_db
+    schema: dbt
+    tables:
+      - name: product_size
+
+    
+
